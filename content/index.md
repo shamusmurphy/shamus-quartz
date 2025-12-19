@@ -1,12 +1,10 @@
 ---
-title: Welcome, I'm Shamus
+title: The Lab
 ---
 
-## My Digital Garden
+Salutations and welcome to the Lab. My name is Shamus Murphy and I am a third year student at University of Vermont studying Math and Computer Science. 
 
-Salutations and welcome to my website. I am currently a third year student at University of Vermont studying Math and Computer Science. 
-
-This site serves as a collection of my notes, research, and ongoing projects. My goal is to contribute to this site as much as possible and hope to grow it into a true digital garden.
+This site is a compilation of my notes, projects, and research that I contribute to frequently. There is no strict organization or anywhich way you should go about reading it.
 
 The work shown on this site will be from this semester and onward. Some of my previous projects can be found on my github but I want to focus on my current interests and build off of them.
 
@@ -25,7 +23,7 @@ In this project, I took a medical dataset off of Kaggle to train a neural networ
 
 Outside of my academic work, I am a ski bum. I try to go skiing anytime possible and most days, especially over breaks, you will find me skiing in Vermont. Reading is something I try to consistently do as much as possible. Whether it's for enjoyment or education. During the semesters I usually slow down but right now I am reading Dune and Geniuses of War. Music is also a huge part of my life and I can play the drums, piano, and guitar (in descending order of skill).
 
-### Get in Touch!
+### My Links
 * [GitHub](https://github.com/shamusmurphy)
 * [LinkedIn](https://www.linkedin.com/in/shamus-murphy-0496032a8/)
 * [Email](mailto:Shamus.Murphy@uvm.edu)
