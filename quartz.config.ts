@@ -19,40 +19,42 @@ const config: QuartzConfig = {
     baseUrl: "thelab.shamusmurphy.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
-    theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
-      typography: {
-        header: "Lora",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+    // Inside quartz.config.ts
+
+  theme: {
+    fontOrigin: "googleFonts",
+    cdnCaching: true,
+    typography: {
+      header: "DM Serif Display", // A bold, organic serif (great for 'Jungle' vibe)
+      body: "Inter",              // Clean and modern legibility
+      code: "IBM Plex Mono",
+    },
+    colors: {
+      lightMode: {
+        light: "#f5f5f0",       // Warm "parchment" cream
+        lightgray: "#e0e0d1",   // Beige/Tan for borders
+        gray: "#8f9e94",        // Muted sage for metadata
+        darkgray: "#2e3b33",    // Deep forest green for body text
+        dark: "#1a261f",        // Near-black green for headings
+        secondary: "#3d6b40",   // Classic Fern Green for links
+        tertiary: "#7cae82",    // Lighter green for hover/graph nodes
+        highlight: "rgba(61, 107, 64, 0.15)", // Green highlight
+        textHighlight: "#d9e6dc",
       },
-      colors: {
-        lightMode: {
-          light: "#ffffff",      // Pure white background
-          lightgray: "#f0f0f0",  // Very light grey for borders/code backgrounds
-          gray: "#888888",       // Neutral grey for metadata (dates, reading time)
-          darkgray: "#333333",   // Dark grey for body text (softer than pure black)
-          dark: "#000000",       // Pure black for headings
-          secondary: "#000000",  // Black for links
-          tertiary: "#666666",   // Grey for hover states/graph nodes
-          highlight: "rgba(0, 0, 0, 0.05)", // Very subtle grey highlight
-          textHighlight: "#e5e5e5",
-        },
-        darkMode: {
-          light: "#111111",      // Near-black background (easier on eyes than pure black)
-          lightgray: "#222222",  // Dark grey for borders/code backgrounds
-          gray: "#888888",       // Neutral grey for metadata
-          darkgray: "#cccccc",   // Light grey for body text
-          dark: "#ffffff",       // Pure white for headings
-          secondary: "#ffffff",  // White for links
-          tertiary: "#999999",   // Grey for hover states
-          highlight: "rgba(255, 255, 255, 0.15)",
-          textHighlight: "#333333",
-        },
+      darkMode: {
+        light: "#161b18",       // Deep dark jungle background
+        lightgray: "#2c3630",   // Dark moss for borders
+        gray: "#85968d",        // Gray-green for metadata
+        darkgray: "#cfdcd5",    // Pale mist for body text
+        dark: "#e8f2eb",        // Off-white for headings
+        secondary: "#76b07b",   // Vibrant light green for links
+        tertiary: "#4a7c59",    // Darker green for hover
+        highlight: "rgba(118, 176, 123, 0.15)",
+        textHighlight: "#2c3e33",
       },
     },
   },
+},
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
