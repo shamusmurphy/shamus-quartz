@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#ffffff",      // Pure white background
+          lightgray: "#f0f0f0",  // Very light grey for borders/code backgrounds
+          gray: "#888888",       // Neutral grey for metadata (dates, reading time)
+          darkgray: "#333333",   // Dark grey for body text (softer than pure black)
+          dark: "#000000",       // Pure black for headings
+          secondary: "#000000",  // Black for links
+          tertiary: "#666666",   // Grey for hover states/graph nodes
+          highlight: "rgba(0, 0, 0, 0.05)", // Very subtle grey highlight
+          textHighlight: "#e5e5e5",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#111111",      // Near-black background (easier on eyes than pure black)
+          lightgray: "#222222",  // Dark grey for borders/code backgrounds
+          gray: "#888888",       // Neutral grey for metadata
+          darkgray: "#cccccc",   // Light grey for body text
+          dark: "#ffffff",       // Pure white for headings
+          secondary: "#ffffff",  // White for links
+          tertiary: "#999999",   // Grey for hover states
+          highlight: "rgba(255, 255, 255, 0.15)",
+          textHighlight: "#333333",
         },
       },
     },
