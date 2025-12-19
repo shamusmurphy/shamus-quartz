@@ -10,7 +10,7 @@ This site serves as a collection of my notes, research, and ongoing projects. Un
 
 ## Current Focus
 
-My primary academic interests lie in [[Cybersecurity]] and [[Data Privacy]].
+My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], and [[Cryptography]].
 7
 > [!note] Active Research: Differential Privacy
 > Next semester, I will be working on a research project involving differential privacy with a professor at UVM. This section will eventually house my notes on privacy-preserving algorithms and their applications.
@@ -19,8 +19,8 @@ My primary academic interests lie in [[Cybersecurity]] and [[Data Privacy]].
 
 These are projects I have built or am currently maintaining to test my understanding of new tools.
 
-### [[DP-Medical]]
-*Implemented differentially private gradient descent on a neural network predicting test results from synthetic medical data.*
+### [[Differentially Diagnosed]]
+*Implemented differential privacy to train senstitive medical data to determine diabetes in patients.*
 **Stack:** [[Python]], [[PyTorch]], [[Opacus]]
 
 ### [[RC Car Controller]]
@@ -28,7 +28,7 @@ These are projects I have built or am currently maintaining to test my understan
 **Stack:** [[Python]], [[Flask]], [[IoT]], [[Hardware]]
 
 ### [[Shape Sprint]]
-*A rhythm-based game inspired by Geometry Dash. I developed this to learn low-level graphics programming, implementing custom physics for gravity and collision detection.*
+*A rhythm-based game inspired by Geometry Dash. I developed this for an open ended project in CS2300 (Advanced Programming).*
 **Stack:** [[C++]], [[OpenGL]], [[Game Dev]]
 
 ## Knowledge Graph
