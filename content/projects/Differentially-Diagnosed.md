@@ -9,27 +9,22 @@ tags:
 
 # Differentially Diagnosed
 
-> This is my most techincal project to date. I created it for my CS3110 class Data Privacy's final project. It is the longest I have spent on the project and I am still continously working on it trying to obtain better accuracy and more in-depth analysis.
+> This is my most techincal project to date. I created it for my CS3110 class Data Privacy's final project. It is the longest I have spent on the project and I am still continously working on it trying to obtain better accuracy and more in-depth analysis. The jupyter notebook in the github repository has more explanations, but here I will give a brief synopsis along with some analysis.
 
-## Languages, Frameworks, and Algorithms
-* **Language:** [[Python]]
-* **Frameworks:** [[PyTorch]], [[Opacus]]
-* **Algorithm:** Differentially Private Stochastic Gradient Descent (DP-SGD)
+## Why Did I Make This?
+For the Data Privacy final project, us students had many different options to choose from. I could have submitted an entry to Open-DP's real world implementations of differential privacy, analyzed a current deployment of it, or take a new dataset and implement different variants of differential privacy. But as I progressed through this class I began to notice that I was doing further reading after every class and became very intrigued by differential privacy. It was at that moment I decided to go above and beyond for this project.
 
-## How it works
-Standard neural networks can often "memorize" their training data, which is a major risk for medical records (HIPAA compliance).
 
-In this project, I used **DP-SGD**, which modifies the standard learning process in two ways:
-1.  **Gradient Clipping:** It caps the maximum influence any single training example can have on the model.
-2.  **Noise Injection:** It adds random statistical noise to the gradients during backpropagation.
+## How It Worked (Initially)
+The original neural network that I submitted for my final project is three layers and it acheived an accuracy a little above **90%**. I trained it using stochastic gradient descent with a learning rate of **0.1**, a momentuam value of **0.9**, and **50** epochs. The data set contains **100,000** rows and my mini-batch size was **64** with shuffling enabled. 
 
-### Trade-off
-The core challenge of this project was balancing **Privacy** (epsilon) vs **Accuracy**.
-* Too much noise = The model learns nothing (random guessing).
-* Too little noise = The model might leak patient data.
+The highest **epsilon value ($\boldsymbol{\epsilon}$)** I tested was **9.30** and the lowest was **0.33**. With the higher epsilon value, the model accuracy changed by a little more than **1%**, and the lower accuracy dropped **>10%**. Below I have the graph showing the differences in accuracy compared to epsilon values. (Need to insert this)
 
-## Results
-Using a synthetic diabetes dataset, I was able to achieve a classification accuracy comparable to a non-private model, proving that sensitive medical data can be used for ML training without compromising patient confidentiality.
+## Current Structure
+I am currently reworking the project now that the semester is over to be a four layer neural network with a mini batch size of **265**. I also added a dropout rate of **0.2** which has helped with the acccuracy. I am going to analyze the affects of different noise multipliers thoroughly and attached to this will be a nice paper by the end of winter break so stay tuned.
+
+## Further Ideas
+Something I've been thinking about is adding another level to this project. From the initial dataset, I dropped the column `diabetes stage`. What I am thinking about now is having another target column determining a patients diabetes stage based on the original features, and if they are diagnosed. 
 
 ## Look at the Code
-Here is the link to the repository on github. (Repository)[https://github.com/shamusmurphy/dp-medical-test-classifier]
+Here is the link to the repository on github. [Repository](https://github.com/shamusmurphy/dp-medical-test-classifier)
