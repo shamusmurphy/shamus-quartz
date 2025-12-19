@@ -31,3 +31,6 @@ The core challenge of this project was balancing **Privacy** (epsilon) vs **Accu
 
 ## 📊 Results
 Using a synthetic diabetes dataset, I was able to achieve a classification accuracy comparable to a non-private model, proving that sensitive medical data can be used for ML training without compromising patient confidentiality.
+
+## Look at the Code
+Here is the link to the repository on github. (Repository)[https://github.com/shamusmurphy/dp-medical-test-classifier]
