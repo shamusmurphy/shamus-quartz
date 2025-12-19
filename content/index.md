@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Shamus Murphy
 ---
 
 This is a blank Quartz installation.
