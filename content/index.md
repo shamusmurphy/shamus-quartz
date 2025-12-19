@@ -29,4 +29,4 @@ Outside of my academic work, I am a ski bum. I try to go skiing anytime possible
 * [GitHub](https://github.com/shamusmurphy)
 * [LinkedIn](https://www.linkedin.com/in/shamus-murphy-0496032a8/)
 * [Email](mailto:Shamus.Murphy@uvm.edu)
-* [CV](shamusmurphy.xyz)
+* [CV](https://shamusmurphy.xyz)
