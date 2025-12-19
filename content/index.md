@@ -4,46 +4,31 @@ title: My Digital Garden!
 
 # Shamus Murphy
 
-Welcome to my digital garden. I am a student at the **University of Vermont** studying **Mathematics** with a minor in **Computer Science**.
+Hi and welcome to my digital garden! I am currently a third year student at University of Vermont studying Math and Computer Science. 
 
-This site serves as a collection of my notes, research, and ongoing projects. Unlike a traditional portfolio, the content here is designed to be interconnected and constantly evolving.
+This site serves as a collection of my notes, research, and ongoing projects. My goal is to contribute to this site as much as possible and hope to display some of my favorite work I have done.
 
-## Current Focus
+The work shown on this site will be from this semester and onward. Some of my previous projects can be found on my github but I want to focus on my current interests and build off of them.
 
-My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], and [[Cryptography]].
-7
-> [!note] Active Research: Differential Privacy
-> Next semester, I will be working on a research project involving differential privacy with a professor at UVM. This section will eventually house my notes on privacy-preserving algorithms and their applications.
+## My Focus
 
-## Works in Progress
+My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], and [[Cryptography]]. With individuals submitted more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
 
-These are projects I have built or am currently maintaining to test my understanding of new tools.
+> ### Future Research: Differential Privacy
+> Next semester, I will be working as an undergraduate research assistant with Associate Professor Joe Near researching various topics pertaining to differential privacy.
+
+## Current Project
 
 ### [[Differentially Diagnosed]]
 *Implemented differential privacy to train senstitive medical data to determine diabetes in patients.*
 **Stack:** [[Python]], [[PyTorch]], [[Opacus]]
 
-### [[RC Car Controller]]
-*A remote-controlled car built using Arduino and Raspberry Pi. This project features a Flask-based web interface for live video streaming and motor control.*
-**Stack:** [[Python]], [[Flask]], [[IoT]], [[Hardware]]
 
-### [[Shape Sprint]]
-*A rhythm-based game inspired by Geometry Dash. I developed this for an open ended project in CS2300 (Advanced Programming).*
-**Stack:** [[C++]], [[OpenGL]], [[Game Dev]]
+## My Life Outside of Academia
 
-## Knowledge Graph
+Outside of my academic work, I am a ski bum. I try to go skiing anytime possible and most days, especially over breaks, you will find me skiing in Vermont. Reading is something I try to consistently do as much as possible. Whether it's for enjoyment or education. During the semesters I usually slow down but right now I am reading Dune and Geniuses of War. Music is also a huge part of my life and I can play the drums, piano, and guitar (in descending order of skill).
 
-These are the languages and tools I use to cultivate my projects.
-
-* **Languages:** [[Python]], [[R]], [[C++]], [[MySQL]]
-* **Concepts:** [[Data Science]], [[Machine Learning]]
-* **Tools:** [[Linux]], [[Git]]
-
-## About
-
-Outside of my academic work, I enjoy skiing, reading, and playing the piano.
-
-### Connect
+### Get in Touch!
 * [GitHub](https://github.com/shamusmurphy)
 * [LinkedIn](https://www.linkedin.com/in/shamus-murphy-0496032a8/)
 * [Email](mailto:Shamus.Murphy@uvm.edu)
