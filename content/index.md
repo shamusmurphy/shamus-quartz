@@ -2,6 +2,8 @@
 title: The Lab
 ---
 
+# Welcome
+
 Salutations and welcome to the Lab. My name is Shamus Murphy and I am a third year student at University of Vermont studying Math and Computer Science. 
 
 This site is a compilation of my notes, projects, and research that I contribute to frequently. There is no strict organization or anywhich way you should go about reading it.

@@ -1,57 +1,80 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-
-/* Make graph lines look like vines */
-.graph {
-  --line-color: #3d6b40; /* Fern green lines */
-}
-
-/* Dark mode adjustment */
-[saved-theme="dark"] .graph {
-  --line-color: #4a7c59; 
-}
-
-/* --- 1. Topographic Background Texture --- */
+/* --- 1. Vertical "Hanging Vine" Background --- */
 body {
-  /* This SVG is a seamless topographic contour pattern */
-  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
-  background-attachment: fixed; /* Keeps texture still while scrolling */
-  background-size: 400px;       /* Adjust scale of the map */
+  /* This SVG creates vertical, slightly wavy lines to mimic vines/moss 
+     hanging from a canopy.
+  */
+  background-attachment: fixed;
+  background-size: 50px 150px; /* Width (density) x Height (wave length) */
+  background-repeat: repeat;
 }
 
-/* Light Mode Blend */
+/* LIGHT MODE: Dark Green Vines on Cream Background */
 [saved-theme="light"] body {
-  background-blend-mode: multiply;
+  /* Color: #3d6b40 (Fern Green), Low Opacity */
+  background-image: url("data:image/svg+xml,%3Csvg width='50' height='150' viewBox='0 0 50 150' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 0 Q 35 37.5 25 75 T 25 150' stroke='%233d6b40' stroke-width='1.5' fill='none' opacity='0.08'/%3E%3C/svg%3E");
 }
 
-/* Dark Mode Blend (Makes the texture subtle against the dark jungle bg) */
+/* DARK MODE: Pale Mint Vines on Deep Green Background */
 [saved-theme="dark"] body {
-  background-blend-mode: soft-light;
+  /* Color: #76b07b (Light Green), slightly higher opacity for contrast */
+  background-image: url("data:image/svg+xml,%3Csvg width='50' height='150' viewBox='0 0 50 150' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 0 Q 35 37.5 25 75 T 25 150' stroke='%2376b07b' stroke-width='1' fill='none' opacity='0.1'/%3E%3C/svg%3E");
 }
 
 
-/* --- 2. "Field Note" Blockquotes --- */
-/* Styles the quote blocks to look like important research notes */
+/* --- 2. Graph View (The "Network") --- */
+/* Makes the graph look like a glowing organic network */
+
+.graph {
+  /* Light Mode Graph */
+  --line-color: rgba(61, 107, 64, 0.25);  /* Faint vine connections */
+  --node-color: #8f9e94;                  /* Gray-green nodes */
+  --active-node-color: #3d6b40;           /* Dark Green when active */
+}
+
+[saved-theme="dark"] .graph {
+  /* Dark Mode Graph - High Contrast */
+  --line-color: rgba(118, 176, 123, 0.3); /* Glowing faint lines */
+  --node-color: #4a7c59;                  /* Darker nodes */
+  --active-node-color: #e8f2eb;           /* Bright white/mint when active */
+}
+
+
+/* --- 3. Field Note (Blockquote) Styling --- */
+/* Fixes the double-text issue and styles the header as the label */
+
 blockquote {
   background-color: var(--highlight);
   border-left: 3px solid var(--secondary);
-  border-radius: 5px;
-  padding: 1rem;
-  font-family: var(--codeFont); /* Uses your 'IBM Plex Mono' for a technical feel */
-  font-style: normal;
-  font-size: 0.9rem;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  margin: 1.5rem 0;
   position: relative;
 }
 
-/* Adds a little 'pin' icon or marker feel if desired */
+/* Ensure no "FIELD NOTE" text is generated automatically */
 blockquote::before {
-  content: "DATA LOG";
-  display: block;
-  font-weight: bold;
-  font-size: 0.7rem;
-  color: var(--secondary);
+  content: none; 
+}
+
+/* Style the Markdown Header (###) inside the quote to act as the title */
+blockquote h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  font-family: var(--codeFont);
+  font-size: 0.85rem;
+  font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  color: var(--secondary);
   letter-spacing: 0.05em;
+  border-bottom: none;
+}
+
+blockquote p {
+  font-family: var(--bodyFont);
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-top: 0;
+  line-height: 1.6;
 }
