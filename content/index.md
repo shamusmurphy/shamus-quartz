@@ -12,13 +12,13 @@ The work shown on this site will be from this semester and onward. Some of my pr
 
 ## My Focus
 
-My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], and [[Cryptography]]. With individuals submitted more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
+My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], and [[Cryptography]]. With individuals submitting more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
 
 > ### Future Research: Differential Privacy
 > Next semester, I will be working as an undergraduate research assistant with Associate Professor Joe Near researching various topics pertaining to differential privacy.
 
 ## Current Project: [[Differentially Diagnosed]]
-In this project, I took a medical dataset off of Kaggle to train a neural network to determine diabetes diagnosis in patients. Implementing differential privacy, I compare different values of epsilon and observe the trade-offs between privacy and utility. I am now reshaping my model architecture as well as perfoming more in-depth analysis.
+In this project, I took a medical dataset off of Kaggle to train a neural network to determine diabetes diagnosis in patients. Implementing differential privacy, I compare different values of epsilon and observe the trade-offs between privacy and utility. I am now reshaping my model architecture as well as performing more in-depth analysis.
 
 
 ## My Life Outside of Academia
