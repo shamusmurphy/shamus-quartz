@@ -1,5 +1,5 @@
 ---
-title: Geniuses of War
+title: Geniuses At War
 date: 2024-12-19
 tags:
   - books
