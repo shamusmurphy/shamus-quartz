@@ -18,7 +18,7 @@ If someone is trying to create a model that will predict the next word a user wi
 
 There are five protocols that are studied and each one builds off of the previous. One thing I noticed was how computationally expensive Protocol 4 is from the table they provided. Many steps of the process including the users computation and the server communication have a cost containing $O(n^2)$. I don't know how I feel about that but this paper is also almost 10 years old.
 
-I decided to read this paper because although it is old, there are many things that I still can not wrap my head around. Secure aggregation along with federated learning I was not familiar with and I need to get a good background of old practices before jumping into the most recent topics.
+I decided to read this paper because although it is old, there are many things that I still can not wrap my head around. Secure aggregation and federated learning I was not familiar with and I need to get a good background of basic practices before jumping into the most recent topics.
 
 Also, I don't know if this is correct but reading about how federated learning works, I think it is the process apple uses to determine which emojis to suggest. When I was reading about their differential privacy implementation (not the best at all), I noticed that the idea they were focusing on almost mirrors the definition here of federated learning.
 
@@ -26,5 +26,4 @@ Also, I don't know if this is correct but reading about how federated learning w
 
 ## References & Sources
 * Source: [https://arxiv.org/pdf/1611.04482]
-* Related: [[Link to other note]]
 * Bonawitz, K., Ivanov, V., Kreuter, B., Marcedone, A., McMahan, H. B., Patel, S., Ramage, D., Segal, A., & Seth, K. (2016, November 14). _Practical secure aggregation for federated learning on user-held data_. arXiv.org. https://arxiv.org/abs/1611.04482
