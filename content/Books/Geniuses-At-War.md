@@ -5,6 +5,7 @@ tags:
   - books
   - ww2
   - cybersecurity
+draft: true
 ---
 
 # Geniuses At War by David A. Price

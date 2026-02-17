@@ -1,7 +1,7 @@
 ---
 title: Book of Proof
 date: 2025-12-21
-draft: false
+draft: true
 tags:
   - math
   - reading

@@ -1,7 +1,7 @@
 ---
 title: Practical Secure Aggregation for Federated Learning on User-Held Data
 date: 2025-12-22
-draft: false
+draft: true
 tags:
   - note
   - cybersecurity
