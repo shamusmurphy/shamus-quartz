@@ -30,5 +30,7 @@ $$\forall n\in \mathbb{N}:\sum_{k=1}^{n}k=\frac{n(n+1)}{2}$$
 	$$\sum_{k=1}^{m+1}k=\frac{(m+1)((m+1)+1)}{2}$$
 	using the **Inductive Hypothesis** and some reasoning. 
 		
-		$$\sum_{k=1}^{m+1}k=\left( \sum_{k=1}^{m}k \right)+(m+1)=\frac{m(m+1)}{2}+(m+1)=(m+1)\left( \frac{m}{2}+1 \right)$$$$=(m+1)\left( \frac{m+2}{2} \right)=\frac{(m+1)((m+1)+1)}{2}$$
+		$$\sum_{k=1}^{m+1}k=\left( \sum_{k=1}^{m}k \right)+(m+1)=\frac{m(m+1)}{2}+(m+1)=(m+1)\left( \frac{m}{2}+1 \right)
+=(m+1)\left( \frac{m+2}{2} \right)=\frac{(m+1)((m+1)+1)}{2}$$
 	as desired. This completes the proof by induction.$\blacksquare$
+	
