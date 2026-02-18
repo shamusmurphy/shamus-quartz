@@ -12,7 +12,7 @@ The work shown on this site will be from this semester and onward. Some of my pr
 
 ## My Focus
 
-My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], and [[Cryptography]]. With individuals submitting more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
+My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], [[Mathematics]], and [[Cryptography]]. With individuals submitting more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
 
 >
 
