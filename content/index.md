@@ -14,10 +14,11 @@ The work shown on this site will be from this semester and onward. Some of my pr
 
 My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], [[Mathematics]], and [[Cryptography]]. With individuals submitting more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
 
->
+> Current Research: [[Implementing Cryptographic Protocols]] Using Pychor
+> Right now, my professor is overseeing another student and I implementing a secure aggregation protocol using Pychor. Our first variation was omitting Shamir's Secret Sharing algorithm and dropouts. We are now working towards a functional protocol with both of these included. 
 
-## Recent Project: [[Differentially Diagnosed]]
-In this project, I took a medical dataset off of Kaggle to train a neural network to determine diabetes diagnosis in patients. Implementing differential privacy, I compare different values of epsilon and observe the trade-offs between privacy and utility. I am now reshaping my model architecture as well as performing more in-depth analysis.
+## Current Project: [[Optimizing Network Security]]
+In this project, my group and I are using the CIC-IDS2017 dataset to train a machine learning model to detect intrusions. We are using the parquet version off of Kaggle for an easier download and efficiency. Currently this is being treated as a binary classification problem, one-hot encoding our target column `Label` into 0's for benign and 1 otherwise. 
 
 
 ## My Life Outside of Academia
