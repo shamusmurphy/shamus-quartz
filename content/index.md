@@ -14,7 +14,7 @@ The work shown on this site will be from this semester and onward. Some of my pr
 
 My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], [[Mathematics]], and [[Cryptography]]. With individuals submitting more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
 
-> Current Research: [[Foundations of Secure Aggregation]] Using Pychor
+> **Current Research: [[Foundations of Secure Aggregation]] Using Pychor**
 > Right now, my professor is overseeing another student and I implementing a secure aggregation protocol using Pychor. Our first variation was omitting Shamir's Secret Sharing algorithm and dropouts. We are now working towards a functional protocol with both of these included. 
 
 ## Current Project: [[Intrusion Detection Analysis]]
@@ -23,7 +23,7 @@ In this project, my group and I are using the CIC-IDS2017 dataset to train a mac
 
 ## My Life Outside of Academia
 
-Outside of my academic work, I am a ski bum. I try to go skiing anytime possible and most days, especially over breaks, you will find me skiing in Vermont. Reading is something I try to consistently do as much as possible. Whether it's for enjoyment or education. During the semesters I usually slow down but right now I am reading Dune and Geniuses of War. Music is also a huge part of my life and I can play the drums, piano, and guitar (in descending order of skill).
+Outside of my academic work, I am a ski bum. I try to go skiing anytime possible and most days, especially over breaks, you will find me skiing in Vermont. Reading is something I try to consistently do as much as possible. Whether it's for enjoyment or education. During the semesters I usually slow down but right now I am reading The Magic Mountain by Thomas Mann. Music is also a huge part of my life and I can play the drums, piano, and guitar (in descending order of skill).
 
 ### My Links
 * [GitHub](https://github.com/shamusmurphy)
