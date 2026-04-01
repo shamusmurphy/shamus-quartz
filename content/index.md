@@ -14,10 +14,10 @@ The work shown on this site will be from this semester and onward. Some of my pr
 
 My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], [[Mathematics]], and [[Cryptography]]. With individuals submitting more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
 
-> Current Research: [[Implementing Cryptographic Protocols]] Using Pychor
+> Current Research: [[Foundations of Secure Aggregation]] Using Pychor
 > Right now, my professor is overseeing another student and I implementing a secure aggregation protocol using Pychor. Our first variation was omitting Shamir's Secret Sharing algorithm and dropouts. We are now working towards a functional protocol with both of these included. 
 
-## Current Project: [[Optimizing Network Security]]
+## Current Project: [[Intrusion Detection Analysis]]
 In this project, my group and I are using the CIC-IDS2017 dataset to train a machine learning model to detect intrusions. We are using the parquet version off of Kaggle for an easier download and efficiency. Currently this is being treated as a binary classification problem, one-hot encoding our target column `Label` into 0's for benign and 1 otherwise. 
 
 
