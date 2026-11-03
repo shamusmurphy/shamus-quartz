@@ -4,26 +4,36 @@ title: The Lab
 
 # Welcome
 
-Salutations and welcome to the Lab. My name is Shamus Murphy and I am a third year student at University of Vermont studying Math and Computer Science. 
+Salutations and welcome to the Lab. My name is Shamus Murphy. I'm a senior at the University of Vermont, majoring in Mathematics with a minor in Computer Science, and I'm graduating in May 2027.
 
-This site is a compilation of my notes, projects, and research that I contribute to frequently. There is no strict organization or anywhich way you should go about reading it.
-
-The work shown on this site will be from this semester and onward. Some of my previous projects can be found on my github but I want to focus on my current interests and build off of them.
+This site collects my notes, projects, and research, and I add to it often. There's no strict organization, so start wherever looks interesting.
 
 ## My Focus
 
-My primary academic interests lie in [[Cybersecurity]], [[Data Privacy]], [[Mathematics]], and [[Cryptography]]. With individuals submitting more and more of their data (knowingly and unknowingly) online, I want to be apart of the force that strives to protect users while making sure they understand what is happening to their data.
+My main interests are in [[Machine Learning]] and [[Data Science]], especially where they meet [[Data Privacy]] and [[Cybersecurity]]. I like taking messy real-world data, building models that actually work on it, and then asking harder questions: what is the model really learning, and what does it cost the people whose data it was trained on? My background in [[Mathematics]] and [[Cryptography]] shapes how I approach these problems.
 
-> **Current Research: [[Foundations of Secure Aggregation]] Using Pychor**
-> Right now, my professor is overseeing another student and I implementing a secure aggregation protocol using Pychor. Our first variation was omitting Shamir's Secret Sharing algorithm and dropouts. We are now working towards a functional protocol with both of these included. 
+As people hand over more and more of their data online, knowingly and unknowingly, I want to be part of the effort that builds useful systems while still protecting users and making sure they understand what happens to their data.
 
-## Current Project: [[Intrusion Detection Analysis]]
-In this project, my group and I are using the CIC-IDS2017 dataset to train a machine learning model to detect intrusions. We are using the parquet version off of Kaggle for an easier download and efficiency. Currently this is being treated as a binary classification problem, one-hot encoding our target column `Label` into 0's for benign and 1 otherwise. 
+## Projects
 
+### [[Intrusion Detection Analysis]]
+*Machine learning · Cybersecurity*
+I led a team of three building an intrusion detection system on the CIC-IDS2017 dataset (2.2M network flows). A random forest catches attacks with 0.97 recall and 1.00 precision, and a class-weighted LightGBM model identifies 14 kinds of traffic (benign plus specific attacks), with 0.97–1.00 F1 on DoS, DDoS, and brute-force attacks.
+
+### [[Differentially Diagnosed]]
+*Machine learning · Data privacy*
+A diabetes-prediction neural network trained with differential privacy (DP-SGD in Opacus). At ε = 1.45 it keeps 98% of the non-private accuracy, and accuracy falls off sharply below ε ≈ 0.5.
+
+### [[Foundations of Secure Aggregation]]
+*Cryptography · Research*
+For an REU (January–May 2026), I worked with another student under my professor's supervision on a secure aggregation protocol in PyChor, a choreographic programming library. Several parties compute a sum without revealing their individual inputs, which is a core building block of privacy-preserving federated learning. The no-dropout version works. Handling dropouts with Shamir's Secret Sharing is still unfinished, and I may pick it back up soon.
+
+## What's Next
+I'm getting ready for an upcoming CS fair. I'm still deciding whether to refine one of the projects above or start something new, most likely in machine learning. Check back for updates.
 
 ## My Life Outside of Academia
 
-Outside of my academic work, I am a ski bum. I try to go skiing anytime possible and most days, especially over breaks, you will find me skiing in Vermont. Reading is something I try to consistently do as much as possible. Whether it's for enjoyment or education. During the semesters I usually slow down but right now I am reading The Magic Mountain by Thomas Mann. Music is also a huge part of my life and I can play the drums, piano, and guitar (in descending order of skill).
+Outside of my academic work, I am a ski bum. I go skiing whenever I can, and on most days, especially over breaks, you'll find me on the slopes in Vermont. I also try to read consistently, both for enjoyment and to learn. I usually slow down during the semester, but right now I'm reading The Magic Mountain by Thomas Mann. Music is a huge part of my life too, and I play the drums, piano, and guitar (in descending order of skill).
 
 ### My Links
 * [GitHub](https://github.com/shamusmurphy)
