@@ -14,7 +14,7 @@ My main interests are in [[Machine Learning]] and [[Data Science]], especially w
 
 As people hand over more and more of their data online, knowingly and unknowingly, I want to be part of the effort that builds useful systems while still protecting users and making sure they understand what happens to their data.
 
-## Projects
+## Recent Projects
 
 ### [[Intrusion Detection Analysis]]
 *Machine learning · Cybersecurity*
@@ -23,6 +23,8 @@ I led a team of three building an intrusion detection system on the CIC-IDS2017 
 ### [[Differentially Diagnosed]]
 *Machine learning · Data privacy*
 A diabetes-prediction neural network trained with differential privacy (DP-SGD in Opacus). At ε = 1.45 it keeps 98% of the non-private accuracy, and accuracy falls off sharply below ε ≈ 0.5.
+
+## Recent Research
 
 ### [[Foundations of Secure Aggregation]]
 *Cryptography · Research*
