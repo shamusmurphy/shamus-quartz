@@ -6,7 +6,7 @@ title: The Lab
 
 Salutations and welcome to the Lab. My name is Shamus Murphy. I'm a senior at the University of Vermont, majoring in Mathematics with a minor in Computer Science, and I'm graduating in May 2027.
 
-This site collects my notes, projects, and research, and I add to it often. There's no strict organization, so start wherever looks interesting.
+This site collects my notes, projects, and research, and try to add to it often. There's no strict organization, so start wherever looks interesting.
 
 ## My Focus
 
@@ -35,7 +35,7 @@ I'm getting ready for an upcoming CS fair. I'm still deciding whether to refine 
 
 ## My Life Outside of Academia
 
-Outside of my academic work, I am a ski bum. I go skiing whenever I can, and on most days, especially over breaks, you'll find me on the slopes in Vermont. I also try to read consistently, both for enjoyment and to learn. I usually slow down during the semester, but right now I'm reading The Magic Mountain by Thomas Mann. Music is a huge part of my life too, and I play the drums, piano, and guitar (in descending order of skill).
+Outside of my academic work, I am a ski bum. I go skiing whenever I can, and on most days, especially over breaks, you'll find me on the slopes in Vermont. I also try to read consistently, both for enjoyment and to learn. I usually slow down during the semester, but right now I'm reading Seven Years in Tibet. Music is a huge part of my life too, and I play the drums, piano, and guitar (in descending order of skill).
 
 ### My Links
 * [GitHub](https://github.com/shamusmurphy)
