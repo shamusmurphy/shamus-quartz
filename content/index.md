@@ -22,7 +22,7 @@ I led a team of three building an intrusion detection system on the CIC-IDS2017 
 
 ### [[Differentially Diagnosed]]
 *Machine learning · Data privacy*
-A diabetes-prediction neural network trained with differential privacy (DP-SGD in Opacus). At ε = 1.45 it keeps 98% of the non-private accuracy, and accuracy falls off sharply below ε ≈ 0.5.
+A diabetes-prediction neural network trained with differential privacy (DP-SGD in Opacus). At ε = 1.45 it keeps 98% of the non-private accuracy, and accuracy falls off sharply below ε ≈ 0.6.
 
 ## Recent Research
 
