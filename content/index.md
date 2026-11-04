@@ -18,7 +18,7 @@ As people hand over more and more of their data online, knowingly and unknowingl
 
 ### [[Intrusion Detection Analysis]]
 *Machine learning · Cybersecurity*
-I led a team of three building an intrusion detection system on the CIC-IDS2017 dataset (2.2M network flows). A random forest catches attacks with 0.97 recall and 1.00 precision, and a class-weighted LightGBM model identifies 14 kinds of traffic (benign plus specific attacks), with 0.97–1.00 F1 on DoS, DDoS, and brute-force attacks.
+I led a team of three building an intrusion detection system on the CIC-IDS2017 dataset (2.3M network flows). A random forest catches attacks with 0.97 recall and 1.00 precision, and a class-weighted LightGBM model identifies the specific attack type, with 0.97–1.00 F1 on DoS, DDoS, and brute-force attacks.
 
 ### [[Differentially Diagnosed]]
 *Machine learning · Data privacy*
