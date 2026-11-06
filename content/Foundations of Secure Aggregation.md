@@ -38,7 +38,7 @@ The server can watch the key exchange, but it never learns the shared secrets, s
 ## Why Choreographic Programming?
 Protocols like this are usually written as separate programs for the client and the server, and a send on one side has to match a receive on the other. Those mismatches are a common source of bugs and deadlocks.
 
-**Choreographic programming** reverses this approach. You write **one global program** (the *choreography*) that describes the whole interaction, such as "client $u$ sends its public key to client $v$", and the library *projects* it into the local code each party actually runs. Since sends and receives are written together in one place, they can't fall out of sync. That made PyChor a good fit for reasoning about a multi-party protocol whose correctness depends on every message arriving where it should.
+**Choreographic programming** reverses this approach. You write **one global program** (the *choreography*) that describes the whole interaction, such as "client $u$ sends its public key to client $v$", and the library *projects* it into the local code each party actually runs. Since sends and receives are written together in one place, they can't fall out of sync. Pychor, which was developed at University of Vermont in the Complex Systems Center, wasa perfect fit for reasoning about a multi-party protocol whose correctness depends on every message arriving where it should.
 
 ## What I Built
 * **Version 1, no dropouts:** pairwise masking with Diffie–Hellman key agreement and PRG-expanded masks, written as a PyChor choreography. If every client submits, the masks cancel and the server recovers exactly $S$.
